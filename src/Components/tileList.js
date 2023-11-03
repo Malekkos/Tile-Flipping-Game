@@ -10,13 +10,20 @@ const TileList = () => {
 
   // console.log(tiles)
   const onClick = event => {
-    console.log(event)
+    const currentId = event.target.id
+    console.log(tiles[currentId].color)
+    // console.log(currentId)
     setFlips(flips + 1)
+    if(currentId == 5 || currentId == 10 || currentId == 15) {
+      console.log("yo")
+      // setTiles()
+    }
   }
 
   return (
     <>
     <h2>{flips}</h2>
+    <h3>Please, make all the tiles blue!</h3>
     <div className="tileWrapper">
       <Tile tiles={tiles} onClick={onClick} />
     </div>

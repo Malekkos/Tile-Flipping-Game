@@ -4,7 +4,7 @@ const Tile = props => {
 
   const tiles = props.tiles
   const onClick = props.onClick
-  console.log(onClick)
+  // console.log(onClick)
   return (
     <>
     {tiles.map((tile, idx) => {

@@ -7,18 +7,72 @@
 }
 
 .button {
-  width: 9rem;
-  height: 9rem;
+  width: 8.5vw;
+  height: 8.5vw;
+  border: 0.4rem solid;
+  margin: 0.05rem;
+}
+.buttonred {
+  background-color: #cc2936;
+  border-right-color: #E37780;
+  border-bottom-color: #E37780;
+  border-left-color: #77181F;
+  border-top-color: #77181F;
+}
+.buttonblue {
+  background-color: #6667ab;
 }
 .tileWrapper {
-  width: 40vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50vw;
 }
 .wrapper {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  /* align-content: stretch; */
+  
 }
+
+/* @media screen and (max-width: 1700px) {
+  .button {
+    height: 17vh;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .button{ 
+    height: 15vh
+  }
+}
+@media screen and (max-width: 1300px) {
+  .button {
+    height: 13vh;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .button {
+    height: 11vh;
+  }
+}
+@media screen and (max-width: 900px) {
+  .button {
+  height: 9vh
+} 
+}
+@media screen and (max-width: 700px) {
+  .button {
+    height: 7vh;
+  } */
+/* } */
+/* @media screen and (max-width: 500px) { */
+  /* .button { */
+    /* height: 5vh */
+  /* } */
+/* } */
+
 
 @keyframes App-logo-spin {
   from {
