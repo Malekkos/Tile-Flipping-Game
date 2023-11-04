@@ -6,6 +6,22 @@ const TileList = () => {
   const [tiles, setTiles] = useState(initialTileState)
   const [flips, setFlips] = useState(0)
 
+  /*
+
+
+  NOTE
+  YOU CAN MAYBE CHANGE THE DATA FIELDS OF EITHER RED OR BLUE TO BE TRUE OR FALSE
+  THEN, DEPENDING IF ITS TRUE OR FALSE, ALIGN IT TO THE COLOR. AKA TRUE IS BLUE AND RED IS FALSE
+  FOR PASSING IT DOWN INTO THE TILE COMPONENT, IT SHOULD READ A VALUE OF TRUE OR FALSE AND CHANGE ACCORDINGLY.
+  MAYBE SETUP A VARIBALE IN THE MAP TO CHANGE THE VALUE OF FALSE TO SOMETHING ELSE
+
+  */
+  const lol = "not funny"
+
+
+
+
+
   const onClick = event => {
     const currentId = event.target.id
     const changer = "tile" + currentId
