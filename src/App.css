@@ -12,14 +12,14 @@
   border: 0.4rem solid;
   margin: 0.05rem;
 }
-.buttonred {
+.buttonfalse {
   background-color: #cc2936;
   border-right-color: #E37780;
   border-bottom-color: #E37780;
   border-left-color: #77181F;
   border-top-color: #77181F;
 }
-.buttonblue {
+.buttontrue {
   background-color: #6667ab;
 }
 .tileWrapper {
