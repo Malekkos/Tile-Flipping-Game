@@ -21,6 +21,10 @@
 }
 .buttontrue {
   background-color: #6667ab;
+  border-right-color: #C8C9E1;
+  border-bottom-color: #C8C9E1;
+  border-left-color: #2B2B4E;
+  border-top-color: #2B2B4E;
 }
 .tileWrapper {
   display: flex;
