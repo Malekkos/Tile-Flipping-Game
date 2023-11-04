@@ -11,7 +11,7 @@ const Tile = props => {
       console.log(tile)
       return (
         <>
-        <input onClick={(event) => onClick(event)} type="button" className={"button" + tile.color + " button"} key={idx} id={idx} />
+        <input onClick={(event) => onClick(event)} type="button" name={tile} className={"button" + tile + " button"} key={idx} id={idx} />
         </>
       )
     })}
